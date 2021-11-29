@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/AndroidManifest.xml:2:1-23:12
+ADDED from /Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/AndroidManifest.xml:2:1-26:12
 MERGED from [com.google.android.material:material:1.4.0] /Users/ghersongrajales/.gradle/caches/transforms-3/8a7a06036e0c4f4e613a8bbc02ac21f5/transformed/material-1.4.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /Users/ghersongrajales/.gradle/caches/transforms-3/f44900cf8519c1edf687ae5becad656d/transformed/constraintlayout-2.1.2/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.4.0] /Users/ghersongrajales/.gradle/caches/transforms-3/8f8dfbea7461eb4b096b7a7771e0ff80/transformed/appcompat-1.4.0/AndroidManifest.xml:17:1-24:12
@@ -43,25 +43,25 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ghersongrajales/.g
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ghersongrajales/.gradle/caches/transforms-3/0f51d6eade7a11156e3fc7ee53014d2e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/ghersongrajales/.gradle/caches/transforms-3/3c4cdcd2e9f2910d703350965f49f5be/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/ghersongrajales/.gradle/caches/transforms-3/c4748cd6bd5cb29e127895c065f91fd7/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/AndroidManifest.xml:2:1-26:12
 	package
 		ADDED from /Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/AndroidManifest.xml:3:5-29
 		INJECTED from /Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/AndroidManifest.xml:2:1-23:12
+		ADDED from /Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/AndroidManifest.xml:2:1-26:12
 		INJECTED from /Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/AndroidManifest.xml:2:1-23:12
+		ADDED from /Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/AndroidManifest.xml:2:1-26:12
 		INJECTED from /Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/AndroidManifest.xml:5:5-21:19
+ADDED from /Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/AndroidManifest.xml:5:5-24:19
 MERGED from [com.google.android.material:material:1.4.0] /Users/ghersongrajales/.gradle/caches/transforms-3/8a7a06036e0c4f4e613a8bbc02ac21f5/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] /Users/ghersongrajales/.gradle/caches/transforms-3/8a7a06036e0c4f4e613a8bbc02ac21f5/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /Users/ghersongrajales/.gradle/caches/transforms-3/f44900cf8519c1edf687ae5becad656d/transformed/constraintlayout-2.1.2/AndroidManifest.xml:9:5-20
@@ -90,22 +90,28 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/ghersongrajales/.gra
 		ADDED from /Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from /Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/AndroidManifest.xml:11:9-48
-activity#com.ceofintech.MainActivity
-ADDED from /Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/AndroidManifest.xml:12:9-20:20
+activity#com.ceofintech.Ceo_calc_uvr_mon
+ADDED from /Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/AndroidManifest.xml:12:9-14:40
 	android:exported
-		ADDED from /Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/AndroidManifest.xml:14:13-36
+		ADDED from /Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/AndroidManifest.xml:14:13-37
 	android:name
-		ADDED from /Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/AndroidManifest.xml:13:13-41
+		ADDED from /Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/AndroidManifest.xml:13:13-45
+activity#com.ceofintech.MainActivity
+ADDED from /Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/AndroidManifest.xml:15:9-23:20
+	android:exported
+		ADDED from /Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/AndroidManifest.xml:17:13-36
+	android:name
+		ADDED from /Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/AndroidManifest.xml:16:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/AndroidManifest.xml:15:13-19:29
+ADDED from /Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
-ADDED from /Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/AndroidManifest.xml:16:17-69
+ADDED from /Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from /Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/AndroidManifest.xml:16:25-66
+		ADDED from /Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/AndroidManifest.xml:18:17-77
+ADDED from /Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from /Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/AndroidManifest.xml:18:27-74
+		ADDED from /Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/AndroidManifest.xml:21:27-74
 uses-sdk
 INJECTED from /Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/AndroidManifest.xml

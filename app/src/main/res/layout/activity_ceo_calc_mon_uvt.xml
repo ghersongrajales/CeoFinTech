@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.ceofintech.Ceo_calc_mon_uvt">
+    android:visibility="visible"
+    tools:context="com.ceofintech.Ceo_calc_mon_uvt"
+    tools:visibility="visible">
 
     <ImageView
         android:id="@+id/ceo_img_logo"
@@ -12,6 +14,7 @@
         android:layout_height="126dp"
         android:layout_gravity="center"
         android:layout_marginTop="32dp"
+        android:contentDescription="@string/ceo_todo"
         android:src="@drawable/logocf"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -42,7 +45,8 @@
         android:layout_height="51dp"
         android:layout_marginTop="24dp"
         android:background="#F2F2F2"
-        android:hint="Tasa del UVT"
+        android:hint="@string/tasa_del_uvt"
+        android:importantForAutofill="no"
         android:inputType="text"
         android:textAlignment="center"
         android:textColor="#03557B"
@@ -59,7 +63,8 @@
         android:layout_width="220dp"
         android:layout_height="51dp"
         android:background="#F2F2F2"
-        android:hint="Cantidad de pesos"
+        android:hint="@string/cantidad_de_pesos"
+        android:importantForAutofill="no"
         android:inputType="text"
         android:textAlignment="center"
         android:textColor="#03557B"
@@ -103,7 +108,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.916"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UsingOnClickInXml" />
 
     <TextView
         android:id="@+id/ceo_rdo"
@@ -117,6 +123,7 @@
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteY="411dp"
         tools:visibility="visible" />
 

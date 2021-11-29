@@ -16,7 +16,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/ceo_todo" />
 
 
     <TextView
@@ -42,7 +43,7 @@
         android:layout_height="51dp"
         android:layout_marginTop="24dp"
         android:background="#F2F2F2"
-        android:hint="Tasa de la Divisa"
+        android:hint="@string/tasa_de_la_divisa"
         android:inputType="text"
         android:textAlignment="center"
         android:textColor="#03557B"
@@ -52,14 +53,15 @@
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ceo_tit_div_mon"
-        tools:visibility="visible" />
+        tools:visibility="visible"
+        android:importantForAutofill="no" />
 
     <EditText
         android:id="@+id/ceo_pesos"
         android:layout_width="220dp"
         android:layout_height="51dp"
         android:background="#F2F2F2"
-        android:hint="Cantidad de pesos"
+        android:hint="@string/cantidad_de_pesos"
         android:inputType="text"
         android:textAlignment="center"
         android:textColor="#03557B"
@@ -70,7 +72,8 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:visibility="visible" />
+        tools:visibility="visible"
+        android:importantForAutofill="no" />
 
     <Button
         android:id="@+id/ceo_importe"
@@ -103,7 +106,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.916"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UsingOnClickInXml" />
 
     <TextView
         android:id="@+id/ceo_rdo"
@@ -118,6 +122,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="411dp"
-        tools:visibility="visible" />
+        tools:visibility="visible"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

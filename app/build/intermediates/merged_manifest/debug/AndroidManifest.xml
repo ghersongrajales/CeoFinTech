@@ -19,6 +19,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.CeoFinTech" >
         <activity
+            android:name="com.ceofintech.Ceo_calc_uvr_mon"
+            android:exported="false" />
+        <activity
             android:name="com.ceofintech.MainActivity"
             android:exported="true" >
             <intent-filter>

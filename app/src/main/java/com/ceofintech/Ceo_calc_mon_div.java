@@ -1,6 +1,8 @@
 package com.ceofintech;
 
 import androidx.appcompat.app.AppCompatActivity;
+import android.os.Bundle;
+import android.content.Intent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -45,8 +47,8 @@ public class Ceo_calc_mon_div extends AppCompatActivity {
     }
 
     public void Regresar3(View view) {
-        Intent regresar = new Intent(this, Ceo_menu_calc.class);
-        startActivity(regresar);
+        Intent regresar3 = new Intent(this, Ceo_menu_calc.class);
+        startActivity(regresar3);
     }
 
 
