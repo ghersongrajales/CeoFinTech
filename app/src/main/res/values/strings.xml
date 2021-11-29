@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">CeoFinTech</string>
+    <string name="ceo_ingresar">Ingresar</string>
+    <string name="ceo_pesos">Pesos</string>
+    <string name="ceo_uvt">Unidad UVT</string>
+    <string name="ceo_uvr">Unidad UVR</string>
+    <string name="ceo_divisa">Divisa Dólar</string>
+    <string name="ceo_importe">Calcular</string>
+    <string name="ceo_rdo">Resultado</string>
+    <string name="ceo_regresar">Regresar</string>
+    <string name="ceo_tit_mon_uvt">De pesos a UVT</string>
+    <string name="ceo_tit_mon_uvr">De pesos a UVR</string>
+    <string name="ceo_tit_mon_div">De pesos a Dólar</string>
+    <string name="ceo_tit_uvt_mon">De UVT a pesos</string>
+    <string name="ceo_tit_uvr_mon">De UVR a pesos</string>
+    <string name="ceo_tit_div_mon">De Dólar a pesos</string>
+    <string name="ceo_todo">Todo</string>
+
+</resources>

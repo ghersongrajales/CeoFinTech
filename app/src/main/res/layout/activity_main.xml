@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ceofintech.MainActivity">
+
+    <ImageView
+        android:id="@+id/ceo_img_logo"
+        android:layout_width="265dp"
+        android:layout_height="314dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:contentDescription="@string/ceo_todo"
+        android:src="@drawable/logocf"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ceo_ingresar"
+        style="@android:style/Widget.Button"
+        android:layout_width="139dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="448dp"
+        android:backgroundTint="#225714"
+        android:gravity="center"
+        android:onClick="Ingresar"
+        android:tag="@string/ceo_ingresar"
+        android:text="@string/ceo_ingresar"
+        android:textAlignment="center"
+        android:textColor="#F2F2F2 "
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
