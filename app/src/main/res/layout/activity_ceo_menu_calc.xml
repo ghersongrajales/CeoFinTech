@@ -29,7 +29,7 @@
         android:layout_marginEnd="120dp"
         android:gravity="center"
         android:onClick="Menu01"
-        android:text="Menú de Calculadoras"
+        android:text="@string/men_de_calculadoras"
         android:textAlignment="center"
         android:textColor="#03557B"
         android:textSize="20sp"
@@ -37,10 +37,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ceo_img_logo" />
+        app:layout_constraintTop_toBottomOf="@+id/ceo_img_logo"
+        tools:ignore="UsingOnClickInXml" />
 
     <Button
-        android:id="@+id/ceo_mc_01"
+        android:id="@+id/ceo_mc01"
         android:layout_width="220dp"
         android:layout_height="51dp"
         android:layout_marginStart="108dp"
@@ -50,16 +51,17 @@
         android:backgroundTint="#607869"
         android:gravity="center"
         android:onClick="Menu01"
-        android:text="De Pesos a UVT"
+        android:text="@string/ceo_mc01"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.351"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ceo_tit_menuc" />
+        app:layout_constraintTop_toBottomOf="@+id/ceo_tit_menuc"
+        tools:ignore="UsingOnClickInXml" />
 
     <Button
-        android:id="@+id/ceo_mc_02"
+        android:id="@+id/ceo_mc02"
         android:layout_width="220dp"
         android:layout_height="51dp"
         android:layout_marginStart="108dp"
@@ -69,16 +71,17 @@
         android:backgroundTint="#607869"
         android:gravity="center"
         android:onClick="Menu02"
-        android:text="De Pesos a UVR"
+        android:text="@string/ceo_mc02"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.351"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ceo_mc_01" />
+        app:layout_constraintTop_toBottomOf="@+id/ceo_mc01"
+        tools:ignore="UsingOnClickInXml" />
 
     <Button
-        android:id="@+id/ceo_mc_03"
+        android:id="@+id/ceo_mc03"
         android:layout_width="220dp"
         android:layout_height="51dp"
         android:layout_marginStart="108dp"
@@ -88,54 +91,16 @@
         android:backgroundTint="#607869"
         android:gravity="center"
         android:onClick="Menu03"
-        android:text="De Pesos a Dólar"
+        android:text="@string/ceo_mc03"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.351"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ceo_mc_02" />
-
+        app:layout_constraintTop_toBottomOf="@+id/ceo_mc02"
+        tools:ignore="UsingOnClickInXml" />
     <Button
-        android:id="@+id/ceo_mc_05"
-        android:layout_width="220dp"
-        android:layout_height="51dp"
-        android:layout_marginStart="110dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="120dp"
-        android:background="#225714"
-        android:backgroundTint="#607869"
-        android:gravity="center"
-        android:onClick="Menu05"
-        android:text="De UVR a Pesos"
-        android:textColor="#F2F2F2"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.384"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ceo_mc_04" />
-
-    <Button
-        android:id="@+id/ceo_mc_06"
-        android:layout_width="220dp"
-        android:layout_height="51dp"
-        android:layout_marginStart="108dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="120dp"
-        android:background="#225714"
-        android:backgroundTint="#607869"
-        android:gravity="center"
-        android:onClick="Menu06"
-        android:text="De Dólar a Pesos"
-        android:textColor="#FFFFFF"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.351"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ceo_mc_05" />
-
-    <Button
-        android:id="@+id/ceo_mc_04"
+        android:id="@+id/ceo_mc04"
         android:layout_width="220dp"
         android:layout_height="51dp"
         android:layout_marginStart="108dp"
@@ -145,13 +110,54 @@
         android:backgroundTint="#607869"
         android:gravity="center"
         android:onClick="Menu04"
-        android:text="De UVT a Pesos"
+        android:text="@string/ceo_mc04"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.351"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ceo_mc_03" />
+        app:layout_constraintTop_toBottomOf="@+id/ceo_mc03"
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/ceo_mc05"
+        android:layout_width="220dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="120dp"
+        android:background="#225714"
+        android:backgroundTint="#607869"
+        android:gravity="center"
+        android:onClick="Menu05"
+        android:text="@string/ceo_mc05"
+        android:textColor="#F2F2F2"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.384"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ceo_mc04"
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/ceo_mc06"
+        android:layout_width="220dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="120dp"
+        android:background="#225714"
+        android:backgroundTint="#607869"
+        android:gravity="center"
+        android:onClick="Menu06"
+        android:text="@string/ceo_mc06"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.351"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ceo_mc05"
+        tools:ignore="UsingOnClickInXml" />
 
     <Button
         android:id="@+id/ceo_salir"
@@ -163,14 +169,15 @@
         android:backgroundTint="#225714"
         android:gravity="center"
         android:onClick="Salir"
-        android:text="Salir"
+        android:text="@string/ceo_salir"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.825"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ceo_mc_06"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/ceo_mc06"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="UsingOnClickInXml" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

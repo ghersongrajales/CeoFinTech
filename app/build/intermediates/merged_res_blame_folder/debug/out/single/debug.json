@@ -12,12 +12,12 @@
         "source": "/Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/build/intermediates/merged_res/debug/drawable_logocf.png.flat",
-        "source": "/Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/res/drawable/logocf.png"
-    },
-    {
         "merged": "/Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
         "source": "/Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/build/intermediates/merged_res/debug/drawable_logocf.png.flat",
+        "source": "/Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/src/main/res/drawable/logocf.png"
     },
     {
         "merged": "/Users/ghersongrajales/Documents/GitHub/CeoFinTech/app/build/intermediates/merged_res/debug/layout_activity_ceo_calc_mon_uvt.xml.flat",

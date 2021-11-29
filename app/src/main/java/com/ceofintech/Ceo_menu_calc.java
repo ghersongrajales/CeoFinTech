@@ -1,31 +1,31 @@
 package com.ceofintech;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
+import android.content.Intent;
 import android.view.View;
 import android.widget.Button;
 
 public class Ceo_menu_calc extends AppCompatActivity {
-    private Button bt1;
-    private Button bt2;
-    private Button bt3;
-    private Button bt4;
-    private Button bt5;
-    private Button bt6;
-    private Button bt0;
+    private Button btn_1;
+    private Button btn_2;
+    private Button btn_3;
+    private Button btn_4;
+    private Button btn_5;
+    private Button btn_6;
+    private Button btn_0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ceo_menuc_calc);
-        btn_1 = (Button)findViewById(R.id.ceo_mc_01);
-        btn_2 = (Button)findViewById(R.id.ceo_mc_02);
-        btn_3 = (Button)findViewById(R.id.ceo_mc_03);
-        btn_4 = (Button)findViewById(R.id.ceo_mc_04);
-        btn_5 = (Button)findViewById(R.id.ceo_mc_05);
-        btn_6 = (Button)findViewById(R.id.ceo_mc_06);
-        btn_0 = (Button)findViewById(R.id.ceo_salir);
+        setContentView(R.layout.activity_ceo_menu_calc);
+        btn_1 = findViewById(R.id.ceo_mc01);
+        btn_2 = findViewById(R.id.ceo_mc02);
+        btn_3 = findViewById(R.id.ceo_mc03);
+        btn_4 = findViewById(R.id.ceo_mc04);
+        btn_5 = findViewById(R.id.ceo_mc05);
+        btn_6 = findViewById(R.id.ceo_mc06);
+        btn_0 = findViewById(R.id.ceo_salir);
     }
 
     public void Menu01 (View view) {
@@ -59,7 +59,7 @@ public class Ceo_menu_calc extends AppCompatActivity {
     }
 
     public void Salir (View view) {
-        getActivity().finish();
+        finish();
         System.exit(0);
     }
 
