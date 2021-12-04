@@ -1,33 +1,12 @@
 <resources>
-    <string name="app_name">CeoFinTech</string>
-    <string name="ceo_ingresar">Ingresar</string>
-    <string name="ceo_pesos">Pesos</string>
-    <string name="ceo_uvt">Unidad UVT</string>
-    <string name="ceo_uvr">Unidad UVR</string>
-    <string name="ceo_divisa">Divisa Dólar</string>
-    <string name="ceo_importe">Calcular</string>
-    <string name="ceo_rdo">Resultado</string>
-    <string name="ceo_regresar">Regresar</string>
-    <string name="ceo_tit_mon_uvt">De pesos a UVT</string>
-    <string name="ceo_tit_mon_uvr">De pesos a UVR</string>
-    <string name="ceo_tit_mon_div">De pesos a Dólar</string>
-    <string name="ceo_tit_uvt_mon">De UVT a pesos</string>
-    <string name="ceo_tit_uvr_mon">De UVR a pesos</string>
-    <string name="ceo_tit_div_mon">De Dólar a pesos</string>
-    <string name="ceo_tasas">Tasas</string>
-    <string name="ceo_todo">Todo</string>
-    <string name="tasa_de_la_uvr">Tasa de la UVR</string>
-    <string name="cantidad_de_pesos">Cantidad de pesos</string>
-    <string name="men_de_calculadoras">Menú de Calculadoras</string>
-    <string name="ceo_mc01">De Pesos a UVT</string>
-    <string name="ceo_mc02">De Pesos a UVR</string>
-    <string name="ceo_mc03">De Pesos a Dólar</string>
-    <string name="ceo_mc04">De UVT a Pesos</string>
-    <string name="ceo_mc05">De UVR a Pesos</string>
-    <string name="ceo_mc06">De Dólar a Pesos</string>
-    <string name="ceo_salir">Salir</string>
-    <string name="tasa_del_uvt">Tasa del UVT</string>
-    <string name="tasa_del_uvr">Tasa del UVR</string>
-    <string name="tasa_de_la_divisa">Tasa de la Divisa</string>
+    <string name="app_name" translatable="false">CeoFinTech</string>
+    <string name="ceo_salir" translatable="false">Salir</string>
+    <string name="ceo_importe" translatable="false">Calcular</string>
+    <string name="ceo_rdo" translatable="false">Resultado</string>
+    <string name="ceo_tasa" translatable="false">Tarifa de la tasa</string>
+    <string name="ceo_todo" translatable="false">Todo</string>
+    <string name="ceo_cantidad" translatable="false">Cantidad</string>
+    <string name="ceo_fecha">Periodo</string>
+    <string name="ceo_unidad">Unidad</string>
 
 </resources>

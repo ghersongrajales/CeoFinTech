@@ -1,24 +1,11 @@
-com/ceofintech/MainActivity.java
- com.ceofintech.MainActivity
-com/ceofintech/Ceo_calc_div_mon.java
- com.ceofintech.Ceo_calc_div_mon
- com.ceofintech.Ceo_calc_div_mon$1
-com/ceofintech/Ceo_calc_mon_div.java
- com.ceofintech.Ceo_calc_mon_div
- com.ceofintech.Ceo_calc_mon_div$1
-com/ceofintech/Ceo_calc_mon_uvr.java
- com.ceofintech.Ceo_calc_mon_uvr
- com.ceofintech.Ceo_calc_mon_uvr$1
-com/ceofintech/Ceo_calc_mon_uvt.java
- com.ceofintech.Ceo_calc_mon_uvt
- com.ceofintech.Ceo_calc_mon_uvt$1
+com/ceofintech/Ceo_uvt.java
+ com.ceofintech.Ceo_uvt
 com/ceofintech/BuildConfig.java
  com.ceofintech.BuildConfig
-com/ceofintech/Ceo_calc_uvr_mon.java
- com.ceofintech.Ceo_calc_uvr_mon
- com.ceofintech.Ceo_calc_uvr_mon$1
-com/ceofintech/Ceo_menu_calc.java
- com.ceofintech.Ceo_menu_calc
-com/ceofintech/Ceo_calc_uvt_mon.java
- com.ceofintech.Ceo_calc_uvt_mon
- com.ceofintech.Ceo_calc_uvt_mon$1
+com/ceofintech/MainActivity.java
+ com.ceofintech.MainActivity
+ com.ceofintech.MainActivity$1
+ com.ceofintech.MainActivity$2
+ com.ceofintech.MainActivity$2$1
+ com.ceofintech.MainActivity$2$2
+ com.ceofintech.MainActivity$2$3
