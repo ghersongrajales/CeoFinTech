@@ -1,7 +1,3 @@
-com/ceofintech/Ceo_uvt.java
- com.ceofintech.Ceo_uvt
-com/ceofintech/BuildConfig.java
- com.ceofintech.BuildConfig
 com/ceofintech/MainActivity.java
  com.ceofintech.MainActivity
  com.ceofintech.MainActivity$1
@@ -9,3 +5,5 @@ com/ceofintech/MainActivity.java
  com.ceofintech.MainActivity$2$1
  com.ceofintech.MainActivity$2$2
  com.ceofintech.MainActivity$2$3
+com/ceofintech/BuildConfig.java
+ com.ceofintech.BuildConfig
